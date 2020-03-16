@@ -184,6 +184,13 @@ a.capitulo-link {
 }
 
 @media screen and (max-width: 991px) {
+    /* novo */
+    .dark-blue-text {
+        margin-left: 23px;
+        margin-right: 12px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
     .btn-menu::after {
         min-height: 60px;
     }
@@ -211,11 +218,6 @@ a.capitulo-link {
     }
 }
 
-@media screen and (max-width: 375px) {
-    .chapter-display {
-        display: none;
-    }
-}
 
 a.btn-menu {
     text-decoration: none !important;

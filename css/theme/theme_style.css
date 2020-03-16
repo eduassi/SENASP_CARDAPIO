@@ -4,6 +4,17 @@
 @import url("typography.css");
 @import url("header.css");
 @import url("sidebar.css");
+
+/* NOVO */
+body {
+    overflow-x: hidden;
+  }
+  
+/* NOVO */
+#content-viewer{
+    overflow-x: hidden;
+}
+
 body {
     overflow-y: scroll;
     overflow-x: hidden;
