@@ -6,11 +6,46 @@ body {
   margin-top: 90px;
 }
 
+.caixa-destaque {
+  margin-top:10px;
+  margin-bottom: 0;
+}
+
+.box-destaque {
+  margin-bottom: 0;
+}
+
+.citacao {
+  margin-bottom: 0;
+}
+
 /* NOVO */
 @media screen and (max-width: 991px) {
   body {
       margin-top: 70px;
   }
+}
+
+@media (max-width: 767px) {
+  .caixa-destaque {
+    margin-top:60px;
+    margin-bottom: 0;
+  }
+  
+}
+
+@media (max-width: 575.98px) {
+    .caixa-destaque { 
+      padding: 10px 15px 0px 15px;
+      margin-bottom: 0;
+    }
+    .box-destaque {
+      padding: 1px 15px 1px 15px;
+      margin-bottom: 0;
+    }
+    .citacao p {
+      padding: 20px 15px 20px 15px;
+    }
 }
 
 section {
