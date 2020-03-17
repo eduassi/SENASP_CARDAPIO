@@ -316,7 +316,7 @@
     height: auto;
     border-left: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
     border-right: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
-    background: #e4eeea;
+    background: #ecebf0;
     padding: 25px 50px 25px 50px;
     margin-bottom: 30px;
 }
@@ -1458,6 +1458,11 @@ ul.sl-bullet li::before {
     background-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
     color: white !important;
     padding: 20px;
+}
+
+.nav-item>a {
+    background-color: #ecebf0 !important;
+    border-color: white !important;
 }
 
 .nav-item>a.active {
