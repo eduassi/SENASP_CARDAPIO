@@ -83,13 +83,13 @@
 
 .modulo_1 .ventanita-show {
   background: var(--INVISIBLE);
-  border: 2pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  border: 2pt solid var(--THEME_COLOR_MODULE_ONE);
   color: var(--THEME_FONT_COLOR);
 }
 
 .modulo_1 .ventanita-show.active {
   color: white !important;
-  background: var(--THEME_COLOR_MODULE_ONE_STRONG) !important;
+  background: var(--THEME_COLOR_MODULE_ONE) !important;
 }
 
 .modulo_1 .pin-marker {
@@ -102,7 +102,7 @@
 
 .modulo_1 .ventanita-caract {
   background: var(--INVISIBLE);
-  border: 3pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  border: 2pt solid var(--THEME_COLOR_MODULE_ONE);
   padding: 30px;
 }
 
@@ -118,7 +118,7 @@
 
 .modulo_1 .split_text_box {
   background: var(--INVISIBLE);
-  border: 3pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  border: 2pt solid var(--THEME_COLOR_MODULE_ONE);
   padding: 30px !important;
 }
 
