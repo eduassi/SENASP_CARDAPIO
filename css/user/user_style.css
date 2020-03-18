@@ -167,6 +167,10 @@ section {
     .flipster_carousel_slides {
       margin-left: 12vw;
     }
+
+    #content-viewer{
+      overflow-x: hidden;
+  }
     
 }
 
